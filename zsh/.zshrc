@@ -22,6 +22,8 @@ zinit light Aloxaf/fzf-tab
 autoload -Uz compinit
 compinit
 
+zinit cdreplay -q
+
 # History
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
@@ -71,6 +73,8 @@ bindkey '^n' history-search-forward
 # Aliases
 alias vim='nvim'
 alias c='clear'
+alias ls='eza -lh'
+alias la='eza -lah'
 
 # Shell integrations
 # Prompt
