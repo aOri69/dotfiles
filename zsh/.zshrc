@@ -71,6 +71,7 @@ alias la='eza -lahg --group-directories-first'
 # Shell integrations
 # Prompt
 eval "$(starship init zsh)" 
+source <(starship completions zsh)
 # Fuzzy finder
 source <(fzf --zsh)
 # Zoxide run
