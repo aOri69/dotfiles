@@ -42,6 +42,9 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'eza -lh --color=always $rea
 # zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
 # zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
+# Set man editor to neovim
+export MANPAGER='nvim +Man!'
+
 # Preview file content using bat (https://github.com/sharkdp/bat)
 export FZF_CTRL_T_OPTS="
   --walker-skip .git,node_modules,target
