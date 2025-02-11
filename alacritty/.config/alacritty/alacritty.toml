@@ -39,15 +39,15 @@ style = "Italic"
 save_to_clipboard = true
 semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 
-[terminal.shell]
-args = ["new", "-A", "-s", "main"]
-program = "/usr/bin/tmux"
+# [terminal.shell]
+# args = ["new", "-A", "-s", "main"]
+# program = "/usr/bin/tmux"
 
 [keyboard]
 bindings = [
-   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" },
-   { key = "F11", mods = "Control|Shift", action = "ToggleFullscreen" },
-   # { key = "F12", mods = "Control|Shift", action = "ToggleMaximized" },
+  { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" },
+  { key = "F11", mods = "Control|Shift", action = "ToggleFullscreen" },
+  # { key = "F12", mods = "Control|Shift", action = "ToggleMaximized" },
 ]
 
 [general]
@@ -58,7 +58,7 @@ import = [
   # "~/.config/alacritty/catppuccin-latte.toml"
   # "~/.config/alacritty/catppuccin-frappe.toml"
   # "~/.config/alacritty/catppuccin-macchiato.toml"
-  "~/.config/alacritty/catppuccin-mocha.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml",
 ]
 
 [terminal]
