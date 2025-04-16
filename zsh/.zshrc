@@ -70,6 +70,7 @@ alias vim='nvim'
 alias c='clear'
 alias ls='eza -lhg --group-directories-first'
 alias la='eza -lahg --group-directories-first'
+alias l='eza -lhg --group-directories-first'
 alias cat='bat'
 
 # Shell integrations
